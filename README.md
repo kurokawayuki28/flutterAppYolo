@@ -33,3 +33,6 @@ Tao 3 button o dong cuoi cung
 
 Update 5 -----------------------
 Xay dung function tao moi button
+
+Update 6 -----------------------
+Tao 1 ma tran button

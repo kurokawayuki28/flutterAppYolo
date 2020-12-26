@@ -53,14 +53,45 @@ class _MyHomePageState extends State<MyHomePage> {
               child: new Divider(),
             ),
 
-            new Row(
+            new Column(
               children: [
-                buildButton(),
-                buildButton(),
-                buildButton(),
-                buildButton()
-              ],
-            )
+                
+                new Row(
+                  children: [
+                    buildButton(),
+                    buildButton(),
+                    buildButton(),
+                    buildButton()
+                  ]),
+                  new Row(
+                  children: [
+                    buildButton(),
+                    buildButton(),
+                    buildButton(),
+                    buildButton()
+                  ]),
+                  new Row(
+                  children: [
+                    buildButton(),
+                    buildButton(),
+                    buildButton(),
+                    buildButton()
+                  ]),
+                  new Row(
+                  children: [
+                    buildButton(),
+                    buildButton(),
+                    buildButton(),
+                    buildButton()
+                  ]),
+                  new Row(
+                  children: [
+                    buildButton(),
+                    buildButton(),
+                    buildButton(),
+                    buildButton()
+                  ]),
+              ],)
           ])
         )
     );
