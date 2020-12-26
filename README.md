@@ -27,3 +27,6 @@ Tao 1 button va co so hien thi trong button do
 
 Update 3 -----------------------
 Chuyen button xuong duoi
+
+Update 4 -----------------------
+Tao 3 button o dong cuoi cung

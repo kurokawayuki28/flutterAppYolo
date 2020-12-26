@@ -49,6 +49,24 @@ class _MyHomePageState extends State<MyHomePage> {
                       textColor: Colors.white,
                     ),
                 ),
+
+                                new Expanded (
+                      child: new MaterialButton(
+                      child: new Text("1"),
+                      onPressed: () => {},
+                      color: Colors.blueGrey,
+                      textColor: Colors.white,
+                    ),
+                ),
+
+                                new Expanded (
+                      child: new MaterialButton(
+                      child: new Text("1"),
+                      onPressed: () => {},
+                      color: Colors.blueGrey,
+                      textColor: Colors.white,
+                    ),
+                ),
               ],
             )
           ])
