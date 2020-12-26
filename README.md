@@ -45,3 +45,6 @@ Them vi tri hien thi ket qua
 
 Update 9 -----------------------
 Them su kien khi an vao button
+
+Update 10 ----------------------
+Hoan thanh cac chuc nang cua tung button
