@@ -26,6 +26,10 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  String output = "0";
+  buttonPressed(String buttonText){
+    print(buttonText);
+  }
   Widget buildButton(String buttonText){
       return  new Expanded (
           child: new OutlineButton(
@@ -35,7 +39,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold
               )),
-            onPressed: () => {},
+            onPressed: () => {
+              buttonPressed(buttonText)
+            },
             ),
         );
   }
@@ -57,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 vertical: 24.0,
                 horizontal: 12.0
               ),
-              child: new Text("0", style: new TextStyle(
+              child: new Text(output, style: new TextStyle(
                 fontSize: 48.0,
                 fontWeight: FontWeight.bold,
                 

@@ -42,3 +42,6 @@ Chinh giao dien cho calculator
 
 Update 8 -----------------------
 Them vi tri hien thi ket qua
+
+Update 9 -----------------------
+Them su kien khi an vao button
