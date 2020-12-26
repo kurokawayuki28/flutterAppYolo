@@ -30,3 +30,6 @@ Chuyen button xuong duoi
 
 Update 4 -----------------------
 Tao 3 button o dong cuoi cung
+
+Update 5 -----------------------
+Xay dung function tao moi button
