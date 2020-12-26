@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(title: 'Dong 1 linh tinh'),
+      home: new MyHomePage(title: 'Calculator'),
     );
   }
 }
@@ -31,7 +31,17 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: new AppBar(
           title: new Text(widget.title),
         ),
-        body: new Containter()
+        body: new Container(
+          child: new Column(children: <Widget>[
+            new Text("0"),
+            new MaterialButton(
+                child: new Text("1"),
+                onPressed: () => {},
+                color: Colors.blueGrey,
+                textColor: Colors.white,
+              )
+          ])
+        )
     );
   }
 }

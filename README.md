@@ -21,3 +21,6 @@ Day se la lan push thu 2 !!
 
 --------------------------
 Hien thi 1 dong tren appbar
+
+Update 2 -----------------------
+Tao 1 button va co so hien thi trong button do
