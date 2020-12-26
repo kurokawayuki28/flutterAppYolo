@@ -24,3 +24,6 @@ Hien thi 1 dong tren appbar
 
 Update 2 -----------------------
 Tao 1 button va co so hien thi trong button do
+
+Update 3 -----------------------
+Chuyen button xuong duoi

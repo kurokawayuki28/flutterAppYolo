@@ -34,12 +34,23 @@ class _MyHomePageState extends State<MyHomePage> {
         body: new Container(
           child: new Column(children: <Widget>[
             new Text("0"),
-            new MaterialButton(
-                child: new Text("1"),
-                onPressed: () => {},
-                color: Colors.blueGrey,
-                textColor: Colors.white,
-              )
+            
+            new Expanded(
+              child: new Divider(),
+            ),
+
+            new Row(
+              children: [
+                new Expanded (
+                      child: new MaterialButton(
+                      child: new Text("1"),
+                      onPressed: () => {},
+                      color: Colors.blueGrey,
+                      textColor: Colors.white,
+                    ),
+                ),
+              ],
+            )
           ])
         )
     );
