@@ -17,3 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 
 Day se la lan push thu 2 !!
+
+
+--------------------------
+Hien thi 1 dong tren appbar
