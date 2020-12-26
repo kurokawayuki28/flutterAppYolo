@@ -39,3 +39,6 @@ Tao 1 ma tran button
 
 Update 7 -----------------------
 Chinh giao dien cho calculator
+
+Update 8 -----------------------
+Them vi tri hien thi ket qua
