@@ -26,15 +26,14 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  Widget buildButton(){
-                  return  new Expanded (
-                      child: new MaterialButton(
-                      child: new Text("1"),
-                      onPressed: () => {},
-                      color: Colors.blueGrey,
-                      textColor: Colors.white,
-                    ),
-                );
+  Widget buildButton(String buttonText){
+      return  new Expanded (
+          child: new OutlineButton(
+            padding: new EdgeInsets.all(24.0),
+            child: new Text(buttonText),
+            onPressed: () => {},
+            ),
+        );
   }
 
 
@@ -58,38 +57,37 @@ class _MyHomePageState extends State<MyHomePage> {
                 
                 new Row(
                   children: [
-                    buildButton(),
-                    buildButton(),
-                    buildButton(),
-                    buildButton()
+                    buildButton("7"),
+                    buildButton("8"),
+                    buildButton("9"),
+                    buildButton("/")
                   ]),
                   new Row(
                   children: [
-                    buildButton(),
-                    buildButton(),
-                    buildButton(),
-                    buildButton()
+                    buildButton("4"),
+                    buildButton("5"),
+                    buildButton("6"),
+                    buildButton("X")
                   ]),
                   new Row(
                   children: [
-                    buildButton(),
-                    buildButton(),
-                    buildButton(),
-                    buildButton()
+                    buildButton("1"),
+                    buildButton("2"),
+                    buildButton("3"),
+                    buildButton("-")
                   ]),
                   new Row(
                   children: [
-                    buildButton(),
-                    buildButton(),
-                    buildButton(),
-                    buildButton()
+                    buildButton("."),
+                    buildButton("x10"),
+                    buildButton("x100"),
+                    buildButton("+")
                   ]),
                   new Row(
                   children: [
-                    buildButton(),
-                    buildButton(),
-                    buildButton(),
-                    buildButton()
+                    buildButton("Clear"),
+                    buildButton("=")
+                   
                   ]),
               ],)
           ])

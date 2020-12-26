@@ -36,3 +36,6 @@ Xay dung function tao moi button
 
 Update 6 -----------------------
 Tao 1 ma tran button
+
+Update 7 -----------------------
+Chinh giao dien cho calculator
