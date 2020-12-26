@@ -18,6 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 
 Day se la lan push thu 2 !!
 
+Muc tieu : Xay dung ung dung tinh toan calculator 
 
 --------------------------
 Hien thi 1 dong tren appbar
